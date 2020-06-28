@@ -35,6 +35,11 @@
                     <encoding>ISO-8859-1</encoding>
                 </configuration>
             </plugin>
+	    <plugin>
+            	   <groupId>org.cyclonedx</groupId>
+                   <artifactId>cyclonedx-maven-plugin</artifactId>
+                   <version>1.6.4</version>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
